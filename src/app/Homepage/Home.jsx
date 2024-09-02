@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import Clear from './Clear'
 import Focus from './Focus'
+import Dashboard from '../Components/Dashboard'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Hero/>
         <Clear/>
         <Focus/>
+        <Dashboard/>
       
     </div>
   )
